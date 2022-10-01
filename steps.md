@@ -42,3 +42,4 @@
     - mysql> source db/schema.sql
     - terminal: npm run seeds (index.js)
     - node server.js
+    -hello
