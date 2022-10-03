@@ -1,21 +1,18 @@
 {
   "name": "14techblock",
   "version": "1.0.0",
-  "description": "App with dashboard, login, comments with CRUD",
+  "description": "This app is for assignment",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "test": "npm start",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Minmaung0307/14techBlock.git"
   },
   "keywords": [
-    "npm",
-    "start"
+    "npm"
   ],
   "author": "Min Maung",
   "license": "ISC",
@@ -24,8 +21,6 @@
   },
   "homepage": "https://github.com/Minmaung0307/14techBlock#readme",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.1",
-    "mysql2": "^2.3.3"
+    "express": "^4.18.1"
   }
 }
