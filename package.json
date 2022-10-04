@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "npm start",
+    "dev": "nodemon server.js",
+    "seeds": "node seeds/index.js",
     "start": "node server.js"
   },
   "repository": {
@@ -12,7 +14,9 @@
     "url": "git+https://github.com/Minmaung0307/14techBlock.git"
   },
   "keywords": [
-    "npm"
+    "npm init",
+    "package.json",
+    "heroku"
   ],
   "author": "Min Maung",
   "license": "ISC",
