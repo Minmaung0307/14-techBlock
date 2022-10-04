@@ -33,3 +33,8 @@ This app is CMS-style blog site and can access the following:
 - when click on the logout option in the navigation, user can sign out of the site
 
 - when user is idle on the site, user can view comments but log in again before user can add, update, or delete comments
+
+![Sample3](./public/images/tech_blog3.png)
+![Sample4](./public/images/tech_blog4.png)
+![Sample1](./public/images/tech_blog1.png)
+![Sample2](./public/images/tech_blog2.png)
