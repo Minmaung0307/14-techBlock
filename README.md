@@ -36,10 +36,9 @@ This app is CMS-style blog site and can access the following:
 
 ## Images
 
-![Sample3](./public/images/tech_blog3.png)
-![Sample4](./public/images/tech_blog4.png)
-![Sample1](./public/images/tech_blog1.png)
-![Sample2](./public/images/tech_blog2.png)
+![Sample3](./public/images/14techBlock01.png)
+![Sample4](./public/images/14techBlock02.png)
+![Sample1](./public/images/14techBlock03.png)
 
 ## Links:
 
@@ -52,3 +51,4 @@ https://minmaung0307.github.io/14techBlock/
 https://github.com/Minmaung0307/14techBlock
 
 video:
+https://watch.screencastify.com/v/oiV2UV2FV2nJC0niCLEt
