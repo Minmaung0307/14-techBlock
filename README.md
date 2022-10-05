@@ -1,6 +1,6 @@
 # 14techBlock
 
-# Description
+## Description
 
 This app is CMS-style blog site and can access the following:
 
@@ -34,7 +34,21 @@ This app is CMS-style blog site and can access the following:
 
 - when user is idle on the site, user can view comments but log in again before user can add, update, or delete comments
 
+## Images
+
 ![Sample3](./public/images/tech_blog3.png)
 ![Sample4](./public/images/tech_blog4.png)
 ![Sample1](./public/images/tech_blog1.png)
 ![Sample2](./public/images/tech_blog2.png)
+
+## Links:
+
+github:
+git@github.com:Minmaung0307/14techBlock.git
+
+url:
+https://minmaung0307.github.io/14techBlock/
+
+https://github.com/Minmaung0307/14techBlock
+
+video:

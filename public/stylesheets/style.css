@@ -33,12 +33,17 @@ button {
   border-radius: 5px;
 }
 
+.elogin {
+  background-color: #d3cece;
+  color: rgb(27, 26, 26) !important;
+}
+
 button:hover {
   background-color: #3486eb;
 }
 
 .btn {
-  width: 700px;
+  /* width: 700px; */
   min-height: 40px;
 }
 
@@ -82,7 +87,7 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -121,7 +126,7 @@ header nav a {
 
 #post-title,
 #post-url {
-  width: 700px;
+  /* width: 700px; */
   height: 40px;
 }
 
@@ -136,14 +141,16 @@ main {
 #username-signup,
 #email-signup,
 #password-signup {
-  width: 500px;
+  /* width: 500px; */
+  margin-bottom: 10px;
   font-size: 1.2rem;
   min-height: 40px;
 }
 
 #login-btn,
 #signup-btn {
-  width: 500px;
+  margin-top: 10px;
+  /* width: 500px; */
   min-height: 40px;
 }
 
@@ -222,7 +229,7 @@ form div input {
 }
 
 .new-post-form input {
-  width: 300px;
+  /* width: 300px; */
 }
 
 .edit-post-form {

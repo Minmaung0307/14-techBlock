@@ -4,8 +4,9 @@
     <span>({{format_url post_url}})</span>
   </div>
   <div class="meta">
-    {{vote_count}}
-    {{format_plural "point" vote_count}}
+
+    {{!-- {{format_plural "point" vote_count}} --}}
+
     by
     {{user.username}}
     on
@@ -13,5 +14,7 @@
     |
     <a href="/post/{{id}}">{{comments.length}}
       {{format_plural "comment" comments.length}}</a>
+    <i class="fa fa-thumbs-o-up" style="font-size: 24px; color: maroon;"></i>
+    {{vote_count}}
   </div>
 </article>

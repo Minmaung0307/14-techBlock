@@ -1,9 +1,12 @@
+let vote = 0;
 async function upvoteClickHandler(event) {
   event.preventDefault();
 
   const id = window.location.toString().split("/")[
     window.location.toString().split("/").length - 1
   ];
+  vote++;
+  console.log(vote);
   const response = await fetch("/api/posts/upvote", {
     method: "PUT",
     body: JSON.stringify({
@@ -15,9 +18,12 @@ async function upvoteClickHandler(event) {
   });
 
   if (response.ok) {
+    vote++;
+    console.log(vote);
     document.location.reload();
   } else {
-    alert(response.statusText);
+    //alert(response.statusText);
+    alert("You have already voted for this!");
   }
 }
 
