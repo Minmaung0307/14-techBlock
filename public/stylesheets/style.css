@@ -9,6 +9,7 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  font-size: 1.1rem;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #081a62;
+  color: #2aca48;
 }
 
 button {
@@ -33,10 +34,10 @@ button {
   border-radius: 5px;
 }
 
-.elogin {
-  background-color: #d3cece;
+/* .elogin {
+  background-color: #f1f0ec;
   color: rgb(27, 26, 26) !important;
-}
+} */
 
 button:hover {
   background-color: #3486eb;
@@ -94,8 +95,8 @@ form label {
 }
 
 header {
-  background-color: rgb(145, 113, 19);
-  padding: 20px 20px;
+  background-color: rgb(67, 54, 17);
+  padding: 20px 50px;
   /* font-size: 1.4rem; */
   border-bottom: 1px solid #ccc;
   display: flex;
@@ -107,17 +108,17 @@ header {
 header h1 a,
 header nav a {
   font-size: 1.5rem;
-  color: white;
+  color: rgb(92, 200, 247);
 }
 
 #logout,
 #login {
-  color: white;
+  color: rgb(92, 200, 247);
   font-size: 1.5rem;
 }
 
 #logout:hover {
-  color: #741704;
+  color: #2aca48;
 }
 
 /* header h1 {
@@ -133,7 +134,7 @@ header nav a {
 main {
   flex: 1;
   padding: 2% 4%;
-  background-color: #c6bdaa;
+  background-color: #e5f9f8;
 }
 
 #email-login,
@@ -145,6 +146,7 @@ main {
   margin-bottom: 10px;
   font-size: 1.2rem;
   min-height: 40px;
+  background-color: #ccc;
 }
 
 #login-btn,
@@ -219,7 +221,7 @@ form div input {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  /* background-color: #fff5eb; */
 }
 
 .comment .meta {
@@ -245,4 +247,8 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+}
+
+span {
+  color: rgb(92, 200, 247);
 }
