@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This app is for assignment",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "test": "npm start",
     "dev": "nodemon server.js",
