@@ -45,6 +45,8 @@ This app is CMS-style blog site and can access the following:
 github:
 git@github.com:Minmaung0307/14techBlock.git
 
+Heroku: https://techblock-14.herokuapp.com/
+
 url:
 https://minmaung0307.github.io/14techBlock/
 
