@@ -50,3 +50,26 @@
     - terminal: npm run seeds (index.js)
     - node server.js
     -hello
+
+## for heroku deploy
+
+    - sequelize init:config
+    - npm install express mysql2
+    - npm install jest --save-dev
+    - heroku addons:create jawsdb
+    - heroku config:get JAWSDB_URL
+    - heroku restart
+    - git add .
+    - git commit -m "update readme"
+    - git push
+    - git push heroku main
+    - heroku open
+
+* open mongodb atlas acc
+    - create new project
+    - create new app at heroku
+        - connect to Github under deploy
+        - use heroku cli under deploy
+        - click reveal config vars under settings
+        - KEY: MONGODB_URI, VALUE: add from mongodb atlas
+        - KEY: JAWSDB_URL, VALUE: mysql://etc... (it will be added after jawsdb installation)
